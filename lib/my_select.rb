@@ -4,5 +4,7 @@ def my_select(collection)
    while i < collection.length 
    yield(collection)
    i = i + 1 
+ else 
+   puts "No block was given" 
  end 
 end
